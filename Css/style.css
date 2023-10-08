@@ -1,0 +1,36 @@
+/*======common css start======*/
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin:none;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.root{
+    --body-font: 'Poppins', sans-serif;;
+    --head-font:'PT Sans', sans-serif; ;
+}
+/*======common css end======*/
+
+
+
+/*======nav section css start======*/
+#primary-nav ul li a{
+    color: #353535;
+    font-size: 15px;
+    font-family: var(--body-font);
+    font-weight: 500;
+    line-height: 30px;
+   
+    text-transform: uppercase;
+    
+    padding:18px 22px;
+
+}
+/*======nav section css end======*/
